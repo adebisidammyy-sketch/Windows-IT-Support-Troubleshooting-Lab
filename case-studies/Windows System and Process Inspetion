@@ -1,0 +1,35 @@
+# Case Study 4: Windows System and Process Inspection
+
+## Objective
+Review basic Windows system information, memory availability, and running processes to establish a baseline for troubleshooting.
+
+## Tools Used
+- Windows Command Prompt
+- `systeminfo`
+- `tasklist`
+
+## Procedure
+1. Ran `systeminfo` to review the operating system and hardware information.
+2. Checked the reported physical memory and virtual memory figures.
+3. Ran `tasklist` to inspect running processes and identify familiar system and security applications.
+4. Reviewed the output for information that could help with future troubleshooting.
+
+## Findings
+- The system reported approximately 16 GB of physical RAM.
+- Approximately 8.6 GB of physical memory was available at the time of the check.
+- Running processes included Windows Defender, Splunk, Nessus, and Windows Subsystem for Linux components.
+- The process list provided information about running applications and services.
+- The checks did not establish a specific system performance problem because CPU utilisation and performance over time were not measured.
+
+## Outcome
+The commands provided a basic overview of the system's resources and running processes. No specific performance fault was confirmed from the available information.
+
+## Skills Practised
+- Windows system information gathering
+- Basic memory inspection
+- Process identification
+- Command-line troubleshooting
+- Technical documentation
+
+## Evidence
+Screenshots were not captured during the original session. The findings are documented from the results observed during testing.
