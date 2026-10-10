@@ -1,0 +1,36 @@
+# Case Study 2: DNS Resolution Troubleshooting
+
+## Objective
+Investigate inconsistent domain name resolution and verify whether websites could be reached successfully.
+
+## Tools Used
+- Windows Command Prompt
+- `nslookup`
+- `ipconfig`
+- `curl`
+
+## Procedure
+1. Used `nslookup` to check how domain names resolved through the router's DNS server.
+2. Repeated DNS queries using Cloudflare DNS (`1.1.1.1`) and Google Public DNS (`8.8.8.8`).
+3. Compared DNS results while connected to Wi-Fi and a mobile hotspot.
+4. Repeated the DNS tests after reconnecting to Wi-Fi.
+5. Used `curl -I https://www.google.com` to verify HTTPS connectivity.
+
+## Findings
+- Initial DNS queries produced unexpected domain variations and occasional timeouts.
+- Results differed between some Wi-Fi and mobile hotspot tests.
+- Later DNS queries returned expected records for Google and Microsoft-related domains.
+- The final HTTPS connectivity test returned an HTTP 200 OK response.
+
+## Outcome
+DNS resolution and HTTPS connectivity worked during final verification. The earlier inconsistencies could not be reproduced consistently, so the root cause was not established. No specific corrective change was confirmed.
+
+## Skills Practised
+- DNS troubleshooting
+- Comparing DNS resolver responses
+- Investigating intermittent lookup failures
+- Verifying website connectivity
+- Recording technical findings accurately
+
+## Evidence
+Screenshots of DNS queries and the final HTTPS test will be added after reviewing them for sensitive information.
