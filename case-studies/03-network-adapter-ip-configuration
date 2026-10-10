@@ -1,0 +1,35 @@
+# Case Study 3: Network Adapter and IP Configuration
+
+## Objective
+Inspect the Windows Wi-Fi adapter and IP configuration to check for obvious connectivity or configuration problems.
+
+## Tools Used
+- Windows Command Prompt
+- `ipconfig /all`
+- `netsh wlan show interfaces`
+
+## Procedure
+1. Ran `ipconfig /all` to inspect the network adapter's IPv4 address, subnet mask, default gateway, DHCP status, and DNS settings.
+2. Ran `netsh wlan show interfaces` to review the wireless connection status and signal information.
+3. Reviewed the results for signs of a disconnected adapter or an obvious IP configuration issue.
+
+## Findings
+- The Wi-Fi adapter was connected.
+- The computer had an IPv4 address and subnet mask.
+- A default gateway and DNS server were configured.
+- DHCP was enabled.
+- The wireless interface reported a signal level of approximately 78% during the check.
+- No obvious adapter disconnection or IP configuration fault was identified.
+
+## Outcome
+The available results indicated that the Wi-Fi adapter was connected and had an IP configuration. The checks did not establish an active adapter or IP configuration fault.
+
+## Skills Practised
+- Inspecting network adapter settings
+- Reviewing IPv4 configuration
+- Understanding DHCP, DNS, and default gateways
+- Checking wireless connection status
+- Documenting troubleshooting findings
+
+## Evidence
+Screenshots were not captured during the original session. The findings above are documented from the results observed during testing.
